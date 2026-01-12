@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; padding: 10px;
+    background-color: rgb(199, 234, 235);
+    text-align: center;
+    color: rgb(27, 24, 24);
+}
+
+div {
+    text-align: initial;
+    padding: 10px;
+    margin: 20px;
+}
+
+header {
+    background-color: #22222269;
+    color: #fff;
+    padding: 3cqh ;
+    text-align: center;
+    border-style:ridge;
+    border-radius: 20%;
+}
+
+button {
+    background-color: #22222269;
+    color: white;
+    padding: 8px 15px;
+    border-style: double;
+    border-color: white;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+input {
+    background-color: #22222269;
+    color: white;
+    padding: 15px;
+    color: white;
+    border-style: double;
+    border-color: #22222269;
+    margin: 5px 0;
+    width: 90%;
+
+}
+
+::placeholder {
+    color: #fff;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #22222269;
+    padding: 15px;
+    border-radius: 8px; transition: transform 0.3s, box-shadow 0.3s;
+   
+}
