@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,4 +42,49 @@
     <script src="script.js"></script>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projeto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo ao sistema</h1>
+    
+    </header>
+    <div class="card" id="informacao"
+        onmouseenter="aumentar('informacao')"
+        onmouseleave="voltar('informacao')">
+
+        <h2>Informações do Usúario</h2>
+        <p id="mensagemNome"></p>
+        <p id="quantidadeLetras"></p>
+    </div>
+
+    <div class="card" id="calculo"
+        onmouseenter="aumentar('calculo')"
+        onmouseleave="voltar('calculo')">
+        
+        <h2>Cálculo de Média Salarial</h2>
+
+        <input type="number" id="salario1" placeholder="Digite o promeiro salário">
+        <input type="number" id="salario2" placeholder="Digite o segundo salário">
+
+        <button onclick="calcularMedia()"
+        onmouseenter="botaoEntrou()" onmouseleave="botaoSaiu()">
+        Calcular Média
+        </button>
+
+        <p id="resultadoSalario"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+>>>>>>> 84279b7f61de852e8499352af9ff7b33bec46f1d
 </html>
