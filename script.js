@@ -33,23 +33,21 @@ function calcularMedia() {
    }, 800);
 }
 
-function aumentar(id) {
-   var area = document.getElementById(id);
-   area.style.transform = 'scale(1.05)';
-}
+document.addEventListener('DOMContentLoaded', function() {
 
-function voltar(id) {
-   var area = document.getElementById(id);
-   area.style.transform = 'scale(1)';
-   area.style.boxShadow = 'none';
-}
+   var info = document.getElementById('informacao');
+   var calculo = document.getElementById('calculo');
 
-function botaoEntrou() {
-   var botao = document.querySelector('button');
-   botao.style.backgroundColor = '#0a9396';
-}
+   var cards = [info, calculo];
 
-function botaoSaiu() {
-   var botao = document.querySelector('button');
-   botao.style.backgroundColor = '#22222269';
-}
+   cards.forEach(function(card) {
+
+      card.addEventListener('mouseenter', function() {
+         card.style.transform = 'scale(1.05)';
+      });
+
+      card.addEventListener('mouseleave', function() {
+         card.style.transform = 'scale(1)';
+      });
+   })
+})

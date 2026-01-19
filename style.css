@@ -68,3 +68,27 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
 }
+
+input, textarea, button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {    /* (max-width: 600px) Significa: Só aplique essas regras quando a largura da tela for no máximo 600 pixels */
+
+    header {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;      /* "rem" é uma unidade de tamanho relativa ao tamanho da fonte da página. 1rem = 16px / 1.2 rem = 19px / 0.8rem = 12px  */
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    input, textarea, button {
+        font-size: 1rem;
+    }
+}
