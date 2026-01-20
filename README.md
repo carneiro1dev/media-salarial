@@ -1,4 +1,4 @@
-# PROJETO MÉDIA SALARIAL
+# Projeto Média Salarial
 
 ## Visão Geral
 
